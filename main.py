@@ -12,7 +12,7 @@ bot=Client(
 
 @bot.on_message(filters.command("start"))
 async def start(client, message):
-  await bot.send_message(message.chat.id, "Hello user, This is a very simple bot.")
+  await bot.send_message(message.chat.id, "Assalomu alaykum bu mening 1 chi botim. Hushkelibsiz Zarinaxon ")
   
 bot.run()  
   
